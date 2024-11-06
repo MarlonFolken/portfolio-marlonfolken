@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-marlonfolken/static/css/main.7eefe723.css",
+    "main.js": "/portfolio-marlonfolken/static/js/main.97c24ffb.js",
+    "static/js/453.5a7b3063.chunk.js": "/portfolio-marlonfolken/static/js/453.5a7b3063.chunk.js",
+    "index.html": "/portfolio-marlonfolken/index.html",
+    "main.7eefe723.css.map": "/portfolio-marlonfolken/static/css/main.7eefe723.css.map",
+    "main.97c24ffb.js.map": "/portfolio-marlonfolken/static/js/main.97c24ffb.js.map",
+    "453.5a7b3063.chunk.js.map": "/portfolio-marlonfolken/static/js/453.5a7b3063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eefe723.css",
+    "static/js/main.97c24ffb.js"
+  ]
+}
