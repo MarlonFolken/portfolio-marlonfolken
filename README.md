@@ -1,9 +1,9 @@
 # Purpose
-Showcase my portfolio and some side projects.
+Showcase my portfolio and some side projects, [Visit the site with this link](https://marlonfolken.github.io/portfolio-marlonfolken/)
 
 Project made with Create React App.
 
-## Getting Started with Create React App
+###  Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
