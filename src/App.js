@@ -11,7 +11,7 @@ function App() {
     <Fragment>
       <ThemeBW.Provider value={{theme, setTheme}}>
       <div className={["gridContainer", `gridContainer-${theme}`].join(' ')}>
-        <div className="description">
+        <div className={["description", `description-${theme}`].join(' ')}>
           <p>
             Page under&nbsp;
             <code className="code">construction</code>
@@ -30,7 +30,7 @@ function App() {
         <div className="projectsCards">
           <a
             href="/#"
-            className="card"
+            className={["card", `card-${theme}`].join(' ')}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ function App() {
 
           <a
             href="/#"
-            className="card"
+            className={["card", `card-${theme}`].join(' ')}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +54,7 @@ function App() {
 
           <a
             href="/#"
-            className="card"
+            className={["card", `card-${theme}`].join(' ')}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ function App() {
 
           <a
             href="/#"
-            className="card"
+            className={["card", `card-${theme}`].join(' ')}
             target="_blank"
             rel="noopener noreferrer"
           >
