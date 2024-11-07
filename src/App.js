@@ -1,12 +1,16 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import { ToggleDN } from './components/ToggleDN'
 import { Footer } from './components/Footer'
+import { ThemeBW } from './components/ThemeBW';
 import './App.css';
 
 function App() {
+  const [theme, setTheme] = useState('dark');
+
   return (
     <Fragment>
-      <div className="gridContainer">
+      <ThemeBW.Provider value={{theme, setTheme}}>
+      <div className={["gridContainer", `gridContainer-${theme}`].join(' ')}>
         <div className="description">
           <p>
             Page under&nbsp;
@@ -75,6 +79,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      </ThemeBW.Provider>
     </Fragment>
   );
 }

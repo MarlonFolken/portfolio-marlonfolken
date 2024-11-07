@@ -1,13 +1,15 @@
 # Purpose
-Showcase my portfolio and some side projects, [Visit the site with this link](https://marlonfolken.github.io/portfolio-marlonfolken/)
+Site created to showcase my portfolio and some side projects, [visit the site with this link.](https://marlonfolken.github.io/portfolio-marlonfolken/)
 
-Project made with Create React App.
+### Resources used
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Toggles](https://toggles.dev/)
+  - Required to install `npm install @theme-toggles/react`.
+  - Plugin warning circumvented with `npm install --save-dev @babel/plugin-transform-private-property-in-object`.
 
-###  Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Available Scripts
+---
+### "Create React App" available scripts
 
 In the project directory, you can run:
 
@@ -30,6 +32,8 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+App is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+---

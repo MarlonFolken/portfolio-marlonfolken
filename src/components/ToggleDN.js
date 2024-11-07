@@ -1,20 +1,23 @@
-import { useState } from "react";
-//import "@theme-toggles/react/css/Within.css";
-//import { Within } from "@theme-toggles/react";
-import styles from '../App.css';
+import { useState, useContext } from "react";
+import { Within } from "@theme-toggles/react";
+import { ThemeBW } from "./ThemeBW";
+import "@theme-toggles/react/css/Within.css";
+import '../App.css';
 
 export default function ToggleDN(){
   const [isToggled, setToggle] = useState(true)
+  const {setTheme} = useContext(ThemeBW);
   function handlerClickToggle(isValue){
     setToggle(isValue);
+    setTheme(isValue ? 'dark' : 'light');
   }
 
   return (
-    <div className={styles.togglePlace}>
-{/*       <Within
+    <div className="togglePlace">
+      <Within
         toggled={isToggled} 
         onToggle={handlerClickToggle}
-      /> */}
+      />
     </div>
   )
 }
