@@ -20,6 +20,26 @@
   
   font-size: 1rem;
 }
+.gridContainer-dark{
+  color: rgb(var(--foreground-dark-rgb));
+  background-color: rgba(var(--background-start-dark-rgb));
+  background: radial-gradient(
+    circle at 96% 8%,
+    rgb(var(--background-start-dark-rgb)),
+    rgb(var(--background-startclose-dark-rgb))23%,
+    rgb(var(--background-end-dark-rgb)) 100%
+  );
+}
+.gridContainer-light{
+  color: rgb(var(--foreground-light-rgb));
+  background-color: rgba(var(--background-start-light-rgb));
+  background: radial-gradient(
+    circle at 96% 8%,
+    rgb(var(--background-start-light-rgb)),
+    rgb(var(--background-startclose-light-rgb))23%,
+    rgb(var(--background-end-light-rgb)) 100%
+  );
+}
 
 .togglePlace{
   grid-column-start: col5;

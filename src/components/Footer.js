@@ -1,6 +1,10 @@
-//import Image from 'next/image';
-import styles from '../App.css';
-//import footstyles from './components/footer.css';
+import '../App.css'
+import github from '../assets/github-circle.svg';
+import phone from '../assets/phone.svg';
+import sendmail from '../assets/send-mail.svg';
+import telegram from '../assets/telegram-circle.svg';
+
+import './footer.css'
 
 export default function Footer(){
   return (
@@ -11,11 +15,11 @@ export default function Footer(){
             title='Github profile'
           >
             <a href='https://github.com/marlonfolken'
-              target='_blank'
+              target='_blank' rel='noreferrer'
             >
               <img
-                className={styles.logo}
-                src={`../public/github-circle.svg`}
+                className="logo"
+                src={github}
                 alt="github logo"
                 width={50}
                 height={50}
@@ -27,8 +31,8 @@ export default function Footer(){
           >
             <a href='https://t.me/marlonvc'>
               <img 
-                className={styles.logo}
-                src={`../public/telegram-circle.svg`}
+                className="logo"
+                src={telegram}
                 alt="telegram logo"
                 width={50}
                 height={50}
@@ -40,8 +44,8 @@ export default function Footer(){
           >
             <a href="tel:+527224114502">
               <img 
-                className={styles.logo}
-                src={`../public/phone.svg`}
+                className="logo"
+                src={phone}
                 alt="phone logo"
                 width={50}
                 height={50}
@@ -53,8 +57,8 @@ export default function Footer(){
           >
             <a href='mailto:marlonvargasmx@gmail.com'>
               <img
-                className={styles.logo}
-                src={`../public/send-mail.svg`}
+                className="logo"
+                src={sendmail}
                 alt="email logo"
                 width={50}
                 height={50}
