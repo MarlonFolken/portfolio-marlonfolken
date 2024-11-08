@@ -5,15 +5,15 @@ import "@theme-toggles/react/css/Within.css";
 import '../App.css';
 
 export default function ToggleDN(){
-  const [isToggled, setToggle] = useState(true)
-  const {setTheme} = useContext(ThemeBW);
+  const [isToggled, setToggle] = useState(false)
+  const {theme, setTheme} = useContext(ThemeBW);
   function handlerClickToggle(isValue){
     setToggle(isValue);
-    setTheme(isValue ? 'dark' : 'light');
+    setTheme(isValue ? 'light' : 'dark');
   }
 
   return (
-    <div className="togglePlace">
+    <div className={["togglePlace", `togglePlace-${theme}`].join(' ')}>
       <Within
         toggled={isToggled} 
         onToggle={handlerClickToggle}

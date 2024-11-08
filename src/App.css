@@ -26,7 +26,7 @@
   background: radial-gradient(
     circle at 96% 8%,
     rgb(var(--background-start-dark-rgb)),
-    rgb(var(--background-startclose-dark-rgb))23%,
+    rgb(var(--background-startclose-dark-rgb))10%,
     rgb(var(--background-end-dark-rgb)) 100%
   );
 }
@@ -36,7 +36,7 @@
   background: radial-gradient(
     circle at 96% 8%,
     rgb(var(--background-start-light-rgb)),
-    rgb(var(--background-startclose-light-rgb))23%,
+    rgb(var(--background-startclose-light-rgb))10%,
     rgb(var(--background-end-light-rgb)) 100%
   );
 }
@@ -45,6 +45,12 @@
   grid-column-start: col5;
   grid-row-start: row2;
   grid-row-end: row3;
+}
+.togglePlace-dark, .togglePlace-dark button{
+  color: white;
+}
+.togglePlace-light, .togglePlace-light button{
+  color: black;
 }
 .togglePlace button{
   font-size: 2rem;
@@ -163,6 +169,13 @@
 .logo {
   position: relative;
 }
+.logo-dark{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(5deg) brightness(102%) contrast(102%);
+}
+.logo-light{
+  filter: invert(0%) sepia(94%) saturate(7461%) hue-rotate(47deg) brightness(105%) contrast(108%);
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card-dark:hover {
