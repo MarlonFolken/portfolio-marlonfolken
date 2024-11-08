@@ -23,7 +23,7 @@ code {
   --foreground-dark-rgb: 255,255,255;
 
   --background-start-dark-rgb: 28, 43, 107;
-  --background-start-light-rgb: 214, 219, 220;
+  --background-start-light-rgb: 240 242 255; /*gray-ish option: 214, 219, 220*/
   --background-startclose-dark-rgb: 16, 24, 60;
   --background-startclose-light-rgb: 235, 235, 237;
   --background-end-dark-rgb: 0, 0, 0;
@@ -110,8 +110,6 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+html {
+  color-scheme: only;
 }

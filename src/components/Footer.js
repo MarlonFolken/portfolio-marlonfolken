@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { ThemeBW } from './ThemeBW';
 import '../App.css'
 import github from '../assets/github-circle.svg';
 import phone from '../assets/phone.svg';
@@ -7,9 +9,10 @@ import telegram from '../assets/telegram-circle.svg';
 import './footer.css'
 
 export default function Footer(){
+  const {theme} = useContext(ThemeBW);
   return (
     <footer>
-      <div className="contactMedia">
+      <div className={["contactMedia", `contactMedia-${theme}`].join(' ')}>
         <ul>
           <li
             title='Github profile'
@@ -18,7 +21,7 @@ export default function Footer(){
               target='_blank' rel='noreferrer'
             >
               <img
-                className="logo"
+                className={["logo", `logo-${theme}`].join(' ')}
                 src={github}
                 alt="github logo"
                 width={50}
@@ -31,7 +34,7 @@ export default function Footer(){
           >
             <a href='https://t.me/marlonvc'>
               <img 
-                className="logo"
+                className={["logo", `logo-${theme}`].join(' ')}
                 src={telegram}
                 alt="telegram logo"
                 width={50}
@@ -44,7 +47,7 @@ export default function Footer(){
           >
             <a href="tel:+527224114502">
               <img 
-                className="logo"
+                className={["logo", `logo-${theme}`].join(' ')}
                 src={phone}
                 alt="phone logo"
                 width={50}
@@ -57,7 +60,7 @@ export default function Footer(){
           >
             <a href='mailto:marlonvargasmx@gmail.com'>
               <img
-                className="logo"
+                className={["logo", `logo-${theme}`].join(' ')}
                 src={sendmail}
                 alt="email logo"
                 width={50}

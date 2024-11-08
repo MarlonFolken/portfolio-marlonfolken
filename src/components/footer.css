@@ -12,6 +12,13 @@
   background-color: rgb(0,0,0);
   z-index: 5;
 }
+.contactMedia-dark ul{
+  background-color: hsl(230 100% 0%)
+}
+.contactMedia-light ul{
+  background-color: hsl(230 100% 97%)
+}
+
 .contactMedia ul li {
   margin: 2em;
 }
