@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-marlonfolken/static/css/main.4234973c.css",
+    "main.css": "/portfolio-marlonfolken/static/css/main.4380c86e.css",
     "main.js": "/portfolio-marlonfolken/static/js/main.b8ae815a.js",
     "static/js/453.5a7b3063.chunk.js": "/portfolio-marlonfolken/static/js/453.5a7b3063.chunk.js",
     "static/media/github-circle.svg": "/portfolio-marlonfolken/static/media/github-circle.f9b943c6141300c088ec3028cab37179.svg",
@@ -8,12 +8,12 @@
     "static/media/send-mail.svg": "/portfolio-marlonfolken/static/media/send-mail.c351107461ec7aae38684c26eadaaf9e.svg",
     "static/media/phone.svg": "/portfolio-marlonfolken/static/media/phone.229cccd4f49e4aac0c77f20e724bcea9.svg",
     "static/media/telegram-circle.svg": "/portfolio-marlonfolken/static/media/telegram-circle.e46f812c431e5a6598db400e99f5ae04.svg",
-    "main.4234973c.css.map": "/portfolio-marlonfolken/static/css/main.4234973c.css.map",
+    "main.4380c86e.css.map": "/portfolio-marlonfolken/static/css/main.4380c86e.css.map",
     "main.b8ae815a.js.map": "/portfolio-marlonfolken/static/js/main.b8ae815a.js.map",
     "453.5a7b3063.chunk.js.map": "/portfolio-marlonfolken/static/js/453.5a7b3063.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4234973c.css",
+    "static/css/main.4380c86e.css",
     "static/js/main.b8ae815a.js"
   ]
 }
