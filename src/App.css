@@ -204,8 +204,9 @@
     grid-template-rows: 
     [row1]5vh [row2]10vh 
     [row3]25vh [row4]20vh 
-    [row5]30vh 
+    [row5]auto 
     [row6]2em [row7]80px [row8]2em;
+    height: initial;
   }
 
   .togglePlace{
@@ -277,7 +278,7 @@
 
     align-items: center;
     inset: 0 0 auto;
-    padding: 2rem 1rem 1.4rem;
+    padding: 0rem 1rem 0rem;
     border-radius: 0;
     border: none;
     background-clip: padding-box;
